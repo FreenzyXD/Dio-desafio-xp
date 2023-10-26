@@ -1,0 +1,44 @@
+body {
+    background-image : url(imagem/tanque.jpg) ;
+    background-size : cover;  
+    box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    border: gray 2px solid;
+    justify-content: center;
+    padding: 20px;
+    margin:0px 400px 0px 400px;
+    border-radius: 30px;
+    background: rgba(105, 103, 103, 0.71);  
+    font-weight: 1000;      
+    
+
+    
+}
+
+h2{
+    display: flex;
+    
+    text-align: center;
+    border: gray 2px solid;
+    justify-content: center;
+    padding: 20px;
+    margin:30px 600px 30px 600px;
+    border-radius: 30px;
+    background: rgba(105, 103, 103, 0.71);  
+    font-weight: 1000;  
+}
+div{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 50px;
+    background-color: rgba(66, 66, 67, 0.812);
+    margin: 8px 800px 8px 800px;
+    font-size: 30px;
+}
