@@ -1,3 +1,7 @@
+document.getElementById("meuBotao").addEventListener("click", function inicio() {
+    alert("Botão clicado! Seu código JavaScript está funcionando.");
+});
+function inicio (){
 let pessoas = parseInt(prompt("Quantos heróis são?"));
 let heroData = [];
 
@@ -42,5 +46,5 @@ for (let i = 0; i < pessoas; i++) {
 }
 
 document.getElementById("greeting").innerHTML = heroData;
-
+}
 
