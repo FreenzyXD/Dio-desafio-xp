@@ -1,6 +1,6 @@
 body {
     background-image : url(imagem/tanque.jpeg) ;
-    background-size : cover;  
+    background-size: cover; 
     box-sizing: border-box;  
     font-family: 'Montserrat', sans-serif;
 
@@ -36,18 +36,19 @@ h2{
 button{
     display: flex;
     text-align: center;
-    border: 3px solid gray;
+    border: 3px solid rgb(54, 53, 53);
     background: grey;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
     font-size: 25px;
     font-weight: 500;
-    margin: auto
+    margin: auto;
+    padding: 15px
 }
 button:hover{
-    background: rgba(49, 49, 49, 0.51);
-  border: 5px solid rgb(37, 36, 36);
+    background: rgba(115, 113, 113, 0.51);
+  border: 4px solid rgb(50, 49, 49);
 }
 div{
     text-align: center;
@@ -55,6 +56,6 @@ div{
     border: 2px solid grey;
     border-radius: 50px;
     background-color: rgba(66, 66, 67, 0.812);
-    margin: 8px 700px 8px 700px;
+    margin: 8px 600px 8px 600px;
     font-size: 30px;
 }
