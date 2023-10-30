@@ -1,5 +1,5 @@
-console.log(document.getElementById("meuBotao"))
 document.getElementById("meuBotao").addEventListener("click", inicio)
+
 function inicio (){
     let pessoas = parseInt(prompt("Quantos heróis são?"));
     let heroData = [];
@@ -38,8 +38,8 @@ function inicio (){
                 mensagem = "Você não tem conhecimento algum";
                 break;
         }
-    console.log(mensagem);
-    heroData += mensagem + "<br>";
+        
+        heroData += mensagem + "<br>";
     }
 
     document.getElementById("greeting").innerHTML = heroData;
